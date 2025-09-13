@@ -183,3 +183,32 @@ footer {
 .cert-item a:hover {
   color: #ff0066;
 }
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1000px;
+  color: white;
+}
+
+.cert-item {
+  flex: 1 1 300px;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.cert-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.1);
+}
