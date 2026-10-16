@@ -1,6 +1,6 @@
 // Resume Button
 function openResume() {
-  window.open("resume.pdf", "_blank");
+  window.open("resumen.pdf", "_blank");
 }
 
 // Tech Background (subtle particles + connecting lines)
